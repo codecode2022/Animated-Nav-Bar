@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #24292E;
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    height: 10vh;
+    background: rgba(234, 240, 240, 0.767);
+    display: flex;
+}
+
+.logo {
+    position: relative;
+    padding-top: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700; 
+    color: maroon;
+}
+
+.logo:hover {
+    font-size: 50px;
+    rotate: 360deg;
+    color: rgba(164, 37, 9, 0.507);
+    cursor: grab;
+    transition-duration: 600ms;
+}
+
+.main-nav ul {
+    position: relative;
+    padding-left: 500px;
+    list-style: none;
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    overflow: wrap;
+}
+
+.main-nav ul li a {
+    position: relative ;
+    display: inline-flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    color: #24292E;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+
+.main-nav ul li a:hover {
+    color: maroon;
+    font-size: 20px;
+    cursor: pointer;
+    transition-duration: 700ms;
+}
+
+.contents {
+    width: 500px;
+    height: 600px;
+    border: 1px solid #24292E;
+    margin-left: 30px;
+    display: inline-flex;
+}
+
+.contents .images-1 {
+    width: 200px;
+    height: 350px;
+    border-radius: 30px;
+    margin-top: 120px;
+    margin-left: 150px;
+    background-image: url("ako.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contents .images-2 {
+    width: 200px;
+    height: 350px;
+    border-radius: 30px;
+    margin-top: 120px;
+    margin-left: 10px;
+    background-image: url("BG-2E.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contents .images-1:hover {
+    rotate: -6deg;
+    border-radius: 100px;
+    transition-duration: 800ms;
+
+}
+
+.contents .images-2:hover {
+    rotate: 6deg;
+    border-radius: 100px;
+    transition: 800ms;
+}
+
+.icons {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    color: #24292E;
+    border-radius: 15px;
+    position: absolute;
+    top: 11px;
+    right: 10px;
+}
+
+.icons:hover {
+    rotate: 360deg;
+    transition: 700ms;
+}
+
+.info-container {
+    position: absolute;
+    top: 20vh;
+    right: 30vh;
+    width: 300px;
+    height: 200px;
+}
+
+.info-container .info {
+    font-size: 40px;
+    color: maroon;
+    font-family: fantasy;
+}
+
+.about-me .text {
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 40px;
+    font-family: cursive;
+    color: tomato;
+    text-indent: 0.3em;
+}
+
+footer {
+    padding-top: 5px;
+    width: 100%;
+    height: 40px;
+    background: rgba(212, 222, 222, 0.694);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 900;
+}
